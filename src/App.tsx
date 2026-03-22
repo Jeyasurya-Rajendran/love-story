@@ -97,11 +97,6 @@ const phases: PhaseType[] = [
 /* ---------------- COMPONENTS ---------------- */
 
 const Greeting: React.FC<NavigationProps> = ({ onNext }) => {
-  // useEffect(() => {
-  //   const timer = setTimeout(onNext, 5000);
-  //   return () => clearTimeout(timer);
-  // }, [onNext]);
-
   return (
     <div
       onClick={onNext}

@@ -57,7 +57,7 @@ const Phase: React.FC<PhaseProps> = ({ data, onNext, step, key }) => {
         () => {
           onNext();
         },
-        typingTime + buffer + 6000,
+        typingTime + buffer + 24000,
       ); // extra time to read highlight
 
       return () => {
